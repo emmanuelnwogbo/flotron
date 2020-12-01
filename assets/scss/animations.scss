@@ -1,0 +1,21 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes container {
+  to {
+    transform: translateX(-350rem);
+  }
+}
+
+@keyframes progress {
+  to {
+    width: 100vw;
+  }
+}
